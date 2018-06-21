@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "509935410865",
+    "firebase_url": "https://fastrescue-21603.firebaseio.com",
+    "project_id": "fastrescue-21603",
+    "storage_bucket": "fastrescue-21603.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509935410865:android:f6563f06539f0e32",
+        "android_client_info": {
+          "package_name": "com.example.pawar.fastrescue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509935410865-anpnndnt7fmlgurvuv7iqko44sd2agst.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pawar.fastrescue",
+            "certificate_hash": "858385f4e302a5aeeee9b9f951dda03b026ef435"
+          }
+        },
+        {
+          "client_id": "509935410865-lv8apavr45uolo4fg04tvf1eujii7j12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgASxGYoNyJBO5DEn7A3dd0uaX3Y0T3jM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509935410865-lv8apavr45uolo4fg04tvf1eujii7j12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

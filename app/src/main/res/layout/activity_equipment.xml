@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pawar.fastrescue.activity.EquipmentActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:text="เหตุที่เจ้าหน้าที่พร้อมช่วยเหลือ"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/cb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="เหตุจากการจราจร" />
+
+            <CheckBox
+                android:id="@+id/cb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="อัคคีภัย" />
+
+            <CheckBox
+                android:id="@+id/cb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="วาตภัย" />
+
+            <CheckBox
+                android:id="@+id/cb4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="งมของกลาง,ร่างผู้เสียชีวิต" />
+
+            <CheckBox
+                android:id="@+id/cb5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="ตกจากที่สูง" />
+
+            <CheckBox
+                android:id="@+id/cb6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="เหตุจากไฟฟ้า" />
+
+            <CheckBox
+                android:id="@+id/cb7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="ติดอยู่ระหว่างวัตถุ" />
+
+            <CheckBox
+                android:id="@+id/cb8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="สัตว์เข้าบ้าน" />
+
+            <CheckBox
+                android:id="@+id/cb9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="เหตุจากสารพิษ" />
+
+
+            <CheckBox
+                android:id="@+id/cb10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="เก็บศพ" />
+
+            <Button
+                android:id="@+id/btcommit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ยืนยัน"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
